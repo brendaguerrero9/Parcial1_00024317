@@ -51,15 +51,35 @@ li a{
 img{
     width: 100%;
     height: 20em;
+    margin-top: 0.5em;
 }
 .grid-cont{
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(1,1fr);
     grid-gap: 5px;
 }
 
+.btn{
+    width: 100%;
+    height: 3.5em;
+    margin: 1.5em 0.3em;
+    background-color: orange;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: orange;
+}
+h2{
+    color: #612e1d;
+    padding: 1em;
+}
+
+p{
+    margin-left: 1em;
+}
 @media only screen and (min-width: 760px){
     nav{
         width: 100%;
@@ -74,5 +94,20 @@ img{
     li a{
         color:white;
         text-decoration: none;
+    }
+
+    .grid-cont{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        grid-gap: 5px;
+    }
+    
+    .btn{
+        width: 100%;
+        height: 3.5em;
+        margin: 1.5em 0.3em;
+        background-color: orange;
     }
 }
