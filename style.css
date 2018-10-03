@@ -14,7 +14,7 @@ header{
 }
 nav{
     width: 100%;
-    background-color: black;
+    background-color:#000000;
 
 }
 ul{
@@ -80,6 +80,58 @@ h2{
 p{
     margin-left: 1em;
 }
+
+.us{
+    width: 100%;
+    height: 40em;
+    background-image: url(contacus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+
+.contact{
+    background-color: rgba(128, 128, 128, 0.815);
+    z-index: 10;
+    margin: 0.5em;
+    border-radius: 0.5em;
+    color: #fff;
+}
+
+.contact > h3{
+    padding: 1em;
+}
+
+.colum1{
+    color: white;
+    padding: 2em;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(1,1fr);
+    border-radius: 1em;
+}
+.btn1{
+    padding: 0.5em;
+    border-radius: 0.5em;
+}
+
+
+.bt{
+    width: 100%;
+    height: 3.5em;
+    margin: 1.5em 0.3em;
+    background-color: orange;
+}
+
+footer{
+    width: 100%;
+    background-color: #000000;
+    color: #fff;
+}
+
+
 @media only screen and (min-width: 760px){
     nav{
         width: 100%;
@@ -110,4 +162,24 @@ p{
         margin: 1.5em 0.3em;
         background-color: orange;
     }
+    
+    .us{
+        width: 100%;
+        height: 30em;
+        background-image: url(contacus.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .colum1{
+        color: white;
+        padding: 2em;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(4,1fr);
+        border-radius: 1em;
+    }
+    
 }
